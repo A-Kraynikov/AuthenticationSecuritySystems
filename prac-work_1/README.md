@@ -11,11 +11,11 @@
 2. Анализ данных
 ## Ход работы
 1. Сначала получим сведения об используемом дистрибутиве:  
-    engle@engle-VirtualBox:~$ lsb_release -a
-    No LSB modules are available.
-    Distributor ID: Ubuntu
-    Description: Ubuntu 22.04.2 LTS
-    Release: 22.04
-    Codename: jammy
+    engle@engle-VirtualBox:~$ lsb_release -a  
+    No LSB modules are available.  
+    Distributor ID: Ubuntu  
+    Description: Ubuntu 22.04.2 LTS  
+    Release: 22.04  
+    Codename: jammy  
 В результате был определён используемый дистрибутив - Ubuntu 22.04.2 LTS
 2. Получим сведения о версии ядра:
