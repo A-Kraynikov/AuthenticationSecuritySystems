@@ -31,6 +31,8 @@
     cd ..
     rm -rf hosts
 
+В результате получен файл Fhosts.data.  
+
 4.Установим библиотеку Zeek Analysis Toolkit для преобразоваия метаинформации сетевого трафика в формате log-файлов в датафрейм Pandas:  
 
     pip -q install zat
