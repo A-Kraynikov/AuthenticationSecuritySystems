@@ -15,15 +15,15 @@
 1. Настройка
 
 Для работы ElasticSearch потребуется увеличить размер виртуальной памяти системы:  
-    ```
+
     sudo sysctl -w vm.max_map_count=262144
-    ```
+
 Дальше следуем инструкции по ссылке: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
 
 2. После формирования файлов с конфигурациями, нужно запустить образы командой:  
-    ```
+
     docker-compose up -d
-    ```
+
 
 ![](./screenshots/screen_3_01.PNG)
 
