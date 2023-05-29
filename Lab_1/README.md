@@ -35,7 +35,7 @@ Codename: jammy
 
 В результате был определён используемый дистрибутив - Ubuntu 22.04.2 LTS.
 
-2.Затем получим сведения о версии ядра:
+2. Затем получим сведения о версии ядра:
 
 ```bash
 vboxuser@UbuntuVM:~$ uname -a
@@ -44,7 +44,7 @@ Linux UbuntuVM 5.19.0-42-generic #43~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 
 
 В результате была получена версия ядра - 5.19.0-42, дата компиляции ядра - Fri Apr 21 16:51:08.
 
-3.Далее можно получить сведения о процессоре:
+3. Далее получим сведения о процессоре:
 
 ```bash
 vboxuser@UbuntuVM:~$ cat /proc/cpuinfo | grep "model name"
@@ -53,7 +53,7 @@ model name: Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
 
 Было определено, что используемый процессор - Intel(R) Core(TM) i3-5005U.
 
-4.Далее получим последние 30 строк логов системы:
+4. Затем получим последние 30 строк логов системы:
 
 ```bash
 мая 25 01:37:47 UbuntuVM systemd[3685]: Starting GNOME Terminal Server...
