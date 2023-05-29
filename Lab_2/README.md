@@ -12,7 +12,7 @@
 
 1. C помощью Wireshark был собран сетевой трафик объёмом 3,77 МБ:  
 
-![screen_2_01](https://github.com/A-Kraynikov/AuthenticationSecuritySystems/assets/90748885/594e0138-735e-4eec-8819-0763eb2da9b8)  
+![](./screenshots/screen_2_01.PNG)
 
 2.C помощью утилиты Zeek была выделена метаинформация сетевого трафика.  
 
@@ -61,7 +61,7 @@
     percentile = round(merged['exists'].value_counts(normalize=True)[1]*100, 2)
     print("DNS имен из списков трафика: {}.".format(count), "Процент нежелательного трафика: {}%.".format(percentile), sep='\n')
 
-![2](https://github.com/A-Kraynikov/AuthenticationSecuritySystems/assets/90748885/3497d8bc-ef14-4bba-a0b3-49ff7604aff5)
+![](./screenshots/screen_2_02.PNG)
 
 ## Оценка результата  
 
